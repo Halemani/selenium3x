@@ -1,0 +1,4 @@
+18:12:48.362 DEBUG test.LoggingDemo -Debug log message
+18:12:48.377 ERROR test.LoggingDemo -Error log message
+18:12:48.377 FATAL test.LoggingDemo -Fatal log message
+18:12:48.377 INFO  test.LoggingDemo -Fatal log message

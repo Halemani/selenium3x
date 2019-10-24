@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testNGGroups" parallel="tests">
+	<test name="firefox tester">
+		<!-- groups> <run> <include name="group1"> </include> </run> </groups -->
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="test.testngDemo2"></class>
+		</classes>
+	</test>
+	
+	<test name="chrome tester">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="test.testngDemo3"></class>
+		</classes>
+	</test>
+</suite>
